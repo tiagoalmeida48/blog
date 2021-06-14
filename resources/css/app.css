@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
+    width: 100%;
+}
+.navbarRight {
+    margin-left: 70%;
+    width: 350px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+.textArea {
+    width: 97%;
+    margin: auto;
+    border-color: #ccc;
+}
+.fileButton {
+    width: 100%;
+    text-align: left;
+}
+.alert {
+    width: 97.5%;
+    margin-left: 13px;
+}
+.imagesPost {
+    width: 100%;
+}
+.imageViewPost {
+    height: 600px;
+    width: 100%;
+}
+i.iconeView {
+    font-size: 20px;
+}
+.cardErrorServidor {
+    width: 50%;
+}
+.mensagemAlerta {
+    width: 600px;
+    margin: 0 auto;
+}
+.linkLastPosts {
+    color: black;
+    text-decoration: none;
+}
+.linkLastPosts:hover {
+    color: black;
+    text-decoration: underline;
+}
+.viewPostSideBar {
+    margin-top: 54px;
+}
